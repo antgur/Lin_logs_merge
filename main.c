@@ -9,7 +9,7 @@ int main()
         if(setsid() == -1)
             break;
         pagr();
-        exit(0);
+        return 0;
         break;
     default:
         break;
@@ -19,9 +19,7 @@ int main()
 
 int pagr()
 {
-    char cli[64];
-    sprintf("ls -l|wc -l");
-    int rez = system(char *cli);
+    int rez = system("ls -l | wc -l");
     srvlog("Main module stopped.");
     return 0; // The end
 }
