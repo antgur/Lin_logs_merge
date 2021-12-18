@@ -2,4 +2,4 @@ killall cl_serv
 cd utils
 ./build
 cd ..
-gcc -O2 -I. -lrt -lpthread ./utils/srvlog.o main1.c -o cl_serv 2>err
+gcc -O2 -I. -lrt -lpthread ./utils/srvlog.o main.c -o cl_serv 2>err
