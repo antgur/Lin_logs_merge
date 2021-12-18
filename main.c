@@ -20,7 +20,7 @@ int main()
 int pagr()
 {
     char cli[64];
-    sprintf("ls -l|wc -l")
+    sprintf("ls -l|wc -l");
     int rez = system(char *cli);
     srvlog("Main module stopped.");
     return 0; // The end
