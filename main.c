@@ -1,3 +1,4 @@
+// Srvlog subroutine test
 int main()
 {
     switch(fork())
